@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>Calendar.Infrastructure</AssemblyName>
+    <RootNamespace>Calendar.Infrastructure</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Mvc\Mappers\" />
+    <Folder Include="Mvc\ViewModel\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Calendar.Ports\Calendar.Ports.csproj" />
+  </ItemGroup>
+
+</Project>
