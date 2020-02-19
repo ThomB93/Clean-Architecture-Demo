@@ -17,9 +17,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calendar.Domain", "Feature\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calendar.Infrastructure", "Feature\Calendar\Calendar.Infrastructure\Calendar.Infrastructure.csproj", "{398FCE61-45F9-46FA-8FC0-CF9AB2B613E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calendar.Ports", "Feature\Calendar\Calendar.Ports\Calendar.Ports.csproj", "{2C5964B5-3D98-4639-AB08-C648FEB249E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calendar.Ports", "Feature\Calendar\Calendar.Ports\Calendar.Ports.csproj", "{2C5964B5-3D98-4639-AB08-C648FEB249E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calendar.Tests", "Feature\Calendar\Calendar.Tests\Calendar.Tests.csproj", "{53291E68-A0C6-4C30-BD12-A02199DC4705}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calendar.UnitTests", "Feature\Calendar\Calendar.Tests\Calendar.UnitTests.csproj", "{53291E68-A0C6-4C30-BD12-A02199DC4705}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calendar.IntegrationTests", "Feature\Calendar\Calendar.IntegrationTests\Calendar.IntegrationTests.csproj", "{2BAB4E1A-F583-415F-A051-FD0DB8906EE4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{53291E68-A0C6-4C30-BD12-A02199DC4705}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53291E68-A0C6-4C30-BD12-A02199DC4705}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53291E68-A0C6-4C30-BD12-A02199DC4705}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BAB4E1A-F583-415F-A051-FD0DB8906EE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BAB4E1A-F583-415F-A051-FD0DB8906EE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BAB4E1A-F583-415F-A051-FD0DB8906EE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BAB4E1A-F583-415F-A051-FD0DB8906EE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -63,6 +69,7 @@ Global
 		{398FCE61-45F9-46FA-8FC0-CF9AB2B613E9} = {6A690024-2B37-4F9F-895E-12E934FB5E50}
 		{2C5964B5-3D98-4639-AB08-C648FEB249E2} = {6A690024-2B37-4F9F-895E-12E934FB5E50}
 		{53291E68-A0C6-4C30-BD12-A02199DC4705} = {6A690024-2B37-4F9F-895E-12E934FB5E50}
+		{2BAB4E1A-F583-415F-A051-FD0DB8906EE4} = {6A690024-2B37-4F9F-895E-12E934FB5E50}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {32B1FB8E-1AF9-49E4-BEC7-F8AF150094F6}
