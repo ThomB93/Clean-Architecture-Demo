@@ -6,5 +6,6 @@ namespace Calendar.Infrastructure.Mvc
 {
     public interface IMvcCalendarAdapter
     {
+
     }
 }

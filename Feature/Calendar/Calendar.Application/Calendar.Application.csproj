@@ -10,4 +10,13 @@
     <ProjectReference Include="..\Calendar.Domain\Calendar.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Services\Calendar\Commands\" />
+    <Folder Include="Services\Calendar\Queries\" />
+    <Folder Include="Services\Student\Commands\" />
+    <Folder Include="Services\Student\Queries\" />
+    <Folder Include="Services\Teacher\Commands\" />
+    <Folder Include="Services\Teacher\Queries\" />
+  </ItemGroup>
+
 </Project>
